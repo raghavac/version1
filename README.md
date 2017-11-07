@@ -3,44 +3,24 @@ import java.awt.event.*;
 import javax.swing.*;
 import org.jdesktop.layout.GroupLayout;
 import org.jdesktop.layout.LayoutStyle;
-/*
- * Created by JFormDesigner on Tue Oct 31 12:26:52 IST 2017
- */
-
-
-
-/**
- * @author chilamathur raghavendra
- */
 public class login extends JFrame {
 	public login() {
 		initComponents();
 	}
 
 	private void button1ActionPerformed(ActionEvent e) {
-		// TODO add your code here
 	}
 
 	private void initComponents() {
-		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-		// Generated using JFormDesigner Evaluation license - chilamathur raghavendra
 		window1 = new Window();
 		label1 = new JLabel();
 		label2 = new JLabel();
 		textField1 = new JTextField();
 		textField2 = new JTextField();
 		button1 = new JButton();
-
-		//======== window1 ========
 		{
-
-			//---- label1 ----
 			label1.setText("UserName");
-
-			//---- label2 ----
 			label2.setText("Password");
-
-			//---- button1 ----
 			button1.setText("Login");
 			button1.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
